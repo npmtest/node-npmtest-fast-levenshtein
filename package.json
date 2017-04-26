@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [fast-levenshtein (v2.0.6)](https://github.com/hiddentao/fast-levenshtein#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-fast-levenshtein.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fast-levenshtein) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fast-levenshtein.svg)](https://travis-ci.org/npmtest/node-npmtest-fast-levenshtein)",
+    "description": "#### basic test coverage for  [fast-levenshtein (v2.0.6)](https://github.com/hiddentao/fast-levenshtein#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-fast-levenshtein.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fast-levenshtein) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fast-levenshtein.svg)](https://travis-ci.org/npmtest/node-npmtest-fast-levenshtein)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "fast-levenshtein": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.26"
 }

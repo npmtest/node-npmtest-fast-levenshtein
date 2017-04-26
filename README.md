@@ -1,6 +1,6 @@
 # npmtest-fast-levenshtein
 
-#### test coverage for  [fast-levenshtein (v2.0.6)](https://github.com/hiddentao/fast-levenshtein#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-fast-levenshtein.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fast-levenshtein) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fast-levenshtein.svg)](https://travis-ci.org/npmtest/node-npmtest-fast-levenshtein)
+#### basic test coverage for  [fast-levenshtein (v2.0.6)](https://github.com/hiddentao/fast-levenshtein#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-fast-levenshtein.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fast-levenshtein) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fast-levenshtein.svg)](https://travis-ci.org/npmtest/node-npmtest-fast-levenshtein)
 
 #### Efficient implementation of Levenshtein algorithm  with locale-specific collator support.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fast-levenshtein/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fast-levenshtein/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fast-levenshtein/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fast-levenshtein/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fast-levenshtein/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fast-levenshtein/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fast-levenshtein/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fast-levenshtein/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fast-levenshtein/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fast-levenshtein/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fast-levenshtein/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fast-levenshtein/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "prepublish": "npm run build",
         "test": "mocha"
     },
-    "version": "2.0.6"
+    "version": "2.0.6",
+    "bin": {}
 }
 ```
 
